@@ -4,12 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="./assets/images/book.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./assets/book.css" />
+    <link rel="stylesheet" href="./assets/index.css" />
     <title>Awesome book</title>
   </head>
   <body>
@@ -27,5 +22,60 @@
         </li>
       </ul>
     </header>
+    <main class="main-section">
+      <section class="section-book-date" id="section-date-now">
+        March 30 ,2023 6:13 AM
+      </section>
+      <section class="section-book-list d-flex" id="awesomebookslist"></section>
+      <section class="section-books-add d-none" id="awesomebooksadd">
+        <h3 class="book-add-head">Add A New Book</h3>
+        <form
+          action=""
+          method="post"
+          id="form-asm-bookid"
+          class="form-book-add"
+        >
+          <input type="text" name="title" id="titleasb" required minlength="4"
+          maxlength="100"/ placeholder="Title" size="50" class="book-add-input">
+          <input
+            type="text"
+            name="author"
+            id="authorasb"
+            required
+            minlength="2"
+            maxlength="50"
+            placeholder="Author"
+            size="50"
+            class="book-add-input"
+          />
+          <input
+            type="submit"
+            name="add"
+            id="btnaddasb"
+            value="Add"
+            class="book-add-input btn-add"
+          />
+          <br />
+        </form>
+      </section>
+      <section class="section-book-contact d-none" id="awesomebookscontact">
+        <h3>Contact Information</h3>
+        <div>
+          <p class="p-contact">
+            Do you have any question or You just want to say <q>Hello</q>?<br />
+            You can reach out to us.
+          </p>
+        </div>
+        <ul>
+          <li class="list-contact">E-mail Address:dagmawi.yoha03@gmail.com</li>
+          <li class="list-contact">Phone Number:+251910508504</li>
+          <li class="list-contact">Address:Addis Ababa, Ethiopia</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-section">
+      <h5 class="copyright">Copyright ....</h5>
+    </footer>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
