@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "luxon": "^3.3.0"
+  },
+  "devDependencies": {
+    "stylelint": "14.0"
   }
 }
