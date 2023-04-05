@@ -4,7 +4,6 @@ body {
   padding: 0;
 }
 
-/* stylelint-enable */
 header {
   width: 100%;
 }
@@ -146,3 +145,5 @@ footer nav {
   text-align: end;
   padding: 0 2rem;
 }
+
+/* stylelint-enable */
